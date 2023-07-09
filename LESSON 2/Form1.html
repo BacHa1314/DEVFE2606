@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac loai dieu khien tren form</title>
+</head>
+<body>
+    <h1>Cac loai dieu khien tren form</h1>
+    <form action="" method="post" name="frmxxx" id="frmxxx">
+        <p>
+            Text: 
+            <input type="text" name="txt" id="txt" placeholder="Nhap...." required>
+        </p>
+        <p>
+            Password:
+            <input type="password" name="pass" id="pass" placeholder="Nhap mat khau" required>
+        </p>
+        <p>
+            Email:
+            <input type="email" name="email" id="email" placeholder="example@devmaster.edu.vn" required>
+        </p>
+        <p>
+            Telphone:
+            <input type="tel" name="tel" id="tel" placeholder="Nhap so dien thoai">
+        </p>
+        <p>
+            Number:
+            <input type="number" name="num" id="num" min="0" max="60" value="18">
+        </p>
+        <p>
+            Range:
+            <input type="range" name="rang" id="rang" min="0" max="100" value="10">
+        </p>
+        <p>
+            radio:
+            <input type="radio" name="gt" id="gtNam" checked>Nam
+            <input type="radio" name="gt" id="gtNu">Nu
+            <input type="radio" name="gt" id="gtKhac">Khac
+        </p>
+        <p>
+            Checkbox:
+            <input type="checkbox" name="chk" id="chk1">Bong da
+            <input type="checkbox" name="chk" id="chk2">Bong ro
+            <input type="checkbox" name="chk" id="chk3">Bong chuyen
+            <input type="checkbox" name="chk" id="chk4">Bong chay
+        </p>
+        <p>
+            Datetime:
+            <input type="date" name="ngay" id="ngay"><br>
+            <input type="datetime-local" name="ngay1" id="ngay1"><br>
+            <input type="week" name="tuan" id="tuan"><br>
+            <input type="time" name="tgian" id="tgian">
+        </p>
+        <p>
+            File:
+            <input type="file" name="chon" id="chon">
+        </p>
+        <p>
+            Search:
+            <input type="search" name="timKiem" id="timKiem">
+        </p>
+        <p>
+            Color:
+            <input type="color" name="chonMau" id="chonMau">
+        </p>
+        <p>
+            <button>hoaiii</button>
+            <!-- button = submit  -->
+        </p>
+        <p>
+            Danh sach:
+            <select name="chonTinh" id="chonTinh">
+                <option value="">---Chon Tinh/Thanh---</option>
+                <option value="1">Ha Noi</option>
+                <option value="2">TP.HCM</option>
+                <option value="3">Da Nang</option>
+                <option value="4">Ha Noi</option>
+                <option value="5">Ha Noi</option>
+            </select>
+        </p>
+        <p>
+            Textarea:
+            <textarea name="diaChi" id="diaChi"></textarea>
+        </p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
