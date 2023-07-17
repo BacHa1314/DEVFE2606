@@ -1,0 +1,9 @@
+.clearfix{
+    overflow: hidden;
+    clear: both;
+}
+
+header{
+    background: #2d303a;
+}
+

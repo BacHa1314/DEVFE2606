@@ -27,7 +27,7 @@ nav#mainNav ul li a:hover{
 }
 
 nav#mainNav ul li{
-    border-bottom: silid 1px #fff;
+    border-bottom: 1px solid #fff;
     position: relative;
 }
 
