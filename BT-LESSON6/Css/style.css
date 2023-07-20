@@ -1,0 +1,180 @@
+.wrapper1{
+    height: 38rem;
+}
+.banner .bg-banner{
+    position: relative;
+}
+
+.banner .bg-banner img{
+    display: inline-block;
+    width: 100%;
+    position: absolute;    
+}
+
+.banner .bg-banner .information{
+    position: absolute;
+    margin: 7rem 17rem;
+    width: 40rem;
+}
+
+.details h2{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1.2rem;
+    letter-spacing: 2px;
+}
+.details h2 span{
+    letter-spacing: 2px;
+}
+.details p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.6rem;
+}
+
+.btn-contact{
+    background-color: #BD945F;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    width: 9rem;
+    height: 3.5em;
+    font-size: 0.9rem;
+    font-weight: 900;
+    border: none;
+}
+.btn-contact:hover{
+    background-color: white;
+    color: #BD945F;
+}
+.wrapper2{
+    height: 28rem;
+    background-color: #F3F3F3;
+}
+.container2{
+    position: absolute;
+}
+
+.list-product{
+    flex-wrap: wrap;
+    width: 70%;
+    margin:0 auto 2rem auto;
+    padding-bottom: 2rem;
+    background-color: white;
+}
+.product{
+    width: 25%;
+    text-align: center;
+}
+.wrapper3{
+    height: 30rem;
+    background-color: #F3F3F3;
+}
+
+.best-seller{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.content-h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    letter-spacing: 0.25rem;
+} 
+
+.best-seller-item{
+    gap: 1.4rem;
+}
+.best-seller-img img{
+    width: 95%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px 1px rgb(168, 168, 168);
+    margin-bottom: 1rem;
+}
+.best-seller-detail{
+    flex-direction: column;
+    text-align: center;
+}
+.best-seller-detail h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding-bottom: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+.best-seller-detail p,
+.best-seller-detail h5{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
+}
+.icon i{
+    padding-bottom: 0.3rem;
+    color: #BD945F;
+}
+
+.wrapper4{
+    height: 60rem;
+    margin-bottom: 1.5rem;
+    background-image: url('../Images/ve-chung-toi/bg-about-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* opacity: 0.5; */
+}
+.about-us,
+.fuction{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.about-us-detail{
+    width: 80%;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+.about-us-title h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+.about-us-title h4 span{
+    font-weight: 900;
+}
+.about-us-title p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1rem;
+}
+.about-us-picture{
+    padding-top: 1rem;
+}
+
+.fuction-title h3{
+    padding-top: 4rem;
+}
+.list-box{
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.box{
+    width: 30rem;
+    background-color: white;
+}
+.box a{
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.box-text{
+    flex-direction: column;
+}
