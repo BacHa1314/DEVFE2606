@@ -178,3 +178,8 @@
 .box-text{
     flex-direction: column;
 }
+
+
+.footer{
+    background-color: rgb(82, 82, 82);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid ;
+        }
+    </style>
+</head>
+<body>
+    <form action="" name="myForm">
+        <table>
+            <thead>
+                <tr class="header">
+                    <td>
+                        <h2>Login Information</h2>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="userName">Username:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="userName" id="userName" size="20" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass" id="pass" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="chk" id="chk">
+                        <label for="chk">Remember Set</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" value="Login" onclick="check()">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="../js/lab-5-01-1.js" language="javascript"></script>
+</body>
+</html>
